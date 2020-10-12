@@ -15,7 +15,7 @@ public interface BookRepository extends JpaRepository<Book, Integer>{
 	
 	@Query(value = "SELECT c FROM Book c WHERE c.name LIKE '%' || :keyword || '%'"
             + " OR c.series_name LIKE '%' || :keyword || '%'"
-            + " OR c.author LIKE '%' || :keyword || '%'"
+            + " OR c.author.name LIKE '%' || :keyword || '%'"
             + " OR c.isbn LIKE '%' || :keyword || '%'")
 	public List<Book> search(@Param("keyword") String keyword);
 }

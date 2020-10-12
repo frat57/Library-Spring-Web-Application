@@ -33,6 +33,7 @@
 				<tr>
 				<th>Name </th>
 				<th>Series Name </th>
+				<th>Author </th>
 				<th>Isbn </th>
 				</tr>
 				</thead>
@@ -42,6 +43,7 @@
 				<tr>
 					<td> ${tempBook.name }</td>
 					<td> ${tempBook.series_name }</td>
+					<td> ${tempBook.author.getName() }</td>
 					<td> ${tempBook.isbn }</td>
 					</tr>
 					
