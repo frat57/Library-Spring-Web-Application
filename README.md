@@ -13,6 +13,14 @@
 
 # Projeye Dair Ekran Görüntüleri
 
-- Veritabanı İlişki Şeması
+## Veritabanı İlişki Şeması
 
 <img src="https://github.com/frat57/Library-Spring-Web-Application/blob/master/image/mysql.PNG" width="50%" height="50%">
+
+## Kullanıcı Giriş Ekranı
+
+<img src="https://github.com/frat57/Library-Spring-Web-Application/blob/master/image/LoginEkrani.PNG" width="50%" height="50%">
+
+## Kitap Listeleme Ekranı
+
+<img src="https://github.com/frat57/Library-Spring-Web-Application/blob/master/image/Kitap Listesi Ekrani.PNG" width="50%" height="50%">
