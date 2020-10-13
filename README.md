@@ -44,3 +44,17 @@
 ## Yayımcı Listeleme Ekranı
 
 <img src="https://github.com/frat57/Library-Spring-Web-Application/blob/master/image/YayimciEkrani.PNG" width="50%" height="50%">
+
+# Authentication Örneği Admin ve Normal Üyeler için Kısıtlandırma
+
+## Admin için Ekranlar 
+
+- Buradaki Adminler için her türlü işleme izin verilmiştir.
+
+<img src="https://github.com/frat57/Library-Spring-Web-Application/blob/master/image/Kitap Listesi Ekrani.PNG" width="50%" height="50%">
+
+## Üyeler için Ekranlar 
+
+- Buradaki normal kullanıcılar için sadece listeleme ve update işlemleri için izin verilmiştir.
+
+<img src="https://github.com/frat57/Library-Spring-Web-Application/blob/master/image/UserKullanicisiicinEkranlari.PNG" width="50%" height="50%">
