@@ -12,3 +12,6 @@
 - Bunun Ardından Eclipse gerekli bağımlılıkları yükledikten sonra proje çalışır hale geliyor.
 
 # Projeye Dair Ekran Görüntüleri
+
+- Veritabanı İlişki Şeması
+<img src="https://github.com/frat57/Library-Spring-Web-Application/tree/master/image/mysql.png" width="50%" height="50%">
