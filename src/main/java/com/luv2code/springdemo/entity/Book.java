@@ -42,8 +42,7 @@ public class Book {
 	
 	@Column(name="details")
 	private String details;
-	
-	
+
 	public Author getAuthor() {
 		return author;
 	}

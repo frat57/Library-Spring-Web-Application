@@ -45,7 +45,7 @@
 					<td><form:select path="author">
    				 <c:forEach items="${author}" var="author">
        		 		<option value="${author.id}">${author.name}</option>
-    			</c:forEach>
+    			</c:forEach>    			
     			</form:select>
 					</td>
 				</tr>

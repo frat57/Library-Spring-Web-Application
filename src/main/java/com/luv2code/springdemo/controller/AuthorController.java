@@ -42,11 +42,9 @@ public class AuthorController {
 	
 	@PostMapping("/saveAuthor")
 	public String saveauthor(@ModelAttribute("author") Author theAuthor) {
-		try {
+		
 		authorService.saveAuthor(theAuthor);
-		}catch(Exception e) {
-			e.printStackTrace();
-		}
+		
 		return "redirect:/author/list";
 	}
 	

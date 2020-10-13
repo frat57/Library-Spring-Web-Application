@@ -1,6 +1,5 @@
 package com.luv2code.springdemo.controller;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
 import com.luv2code.springdemo.entity.Author;
 import com.luv2code.springdemo.entity.Book;
 import com.luv2code.springdemo.entity.Publisher;
